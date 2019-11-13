@@ -32,7 +32,7 @@ To **log issues**, click [here](https://github.com/oracle/learning-library/issue
 
 - Click on Menu and select Autonomous Transaction Processing
 
-- On the ATP console, select your ATP instance provisioned in <a href="./LabGuide100ProvisionAnATPDatabase.md" target="_blank">LabGuide1.md</a>.
+- On the ATP console, select your ATP instance provisioned in <a href="./Lab1.md" target="_blank">LabGuide1.md</a>.
 
 
 - Click on  **DB Connection** to open up Database Connection pop-up window
