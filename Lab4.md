@@ -38,7 +38,7 @@ To **log issues**, click [here](https://github.com/oracle/learning-library/issue
 
 ## Required Artifacts
 
-- Please ensure you are connected to your cloud account and have provisioned an ATP instance. Refer <a href="./LabGuide100ProvisionAnATPDatabase.md" target="_blank">LabGuide1.md</a>
+- Please ensure you are connected to your cloud account and have provisioned an ATP instance. Refer <a href="./Lab1.md" target="_blank">LabGuide1.md</a>
 - You have installed Oracle SQL Developer. You can download SQL Developer 18.3 [here](https://www.oracle.com/technetwork/developer-tools/sql-developer/downloads/index.html) and follow the instructions to complete the installation.
 
 ## Steps
