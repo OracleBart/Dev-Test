@@ -203,7 +203,7 @@ Specify the credentials for your Oracle Cloud Infrastructure Object Storage serv
 
  You can use the PL/SQL package DBMS_CLOUD directly to load the data from object store. This is the preferred choice for any load automation.
 
- - Connect as your user in SQL Developer, copy and paste <a href="./scripts/300/load_data.txt" target="_blank">this code snippet</a> to SQL Developer worksheet. We use the **copy\_data** procedure of the **DBMS\_CLOUD** package to copy the data (customers.csv) staged in your object store.
+ - Connect as your user in SQL Developer, copy and paste <a href="https://github.com/oracle/learning-library/blob/master/workshops/autonomous-transaction-processing/scripts/300/create_credential.txt" target="_blank">this code snippet</a> to SQL Developer worksheet. We use the **copy\_data** procedure of the **DBMS\_CLOUD** package to copy the data (customers.csv) staged in your object store.
 
  - At the top of the script, specify the Object Store base URL in the definition of the **base\_URL** variable. You have constructed and saved the URL in the step "Construct the URLs of the Files on Your OCI Object Storage".
 
