@@ -34,11 +34,9 @@ To **log issues**, click [here](https://github.com/oracle/learning-library/issue
 
 - On the ATP console, select your ATP instance provisioned in <a href="./LabGuide100ProvisionAnATPDatabase.md" target="_blank">LabGuide1.md</a>.
 
-![](./images/200/Picture200-1.png)
 
 - Click on  **DB Connection** to open up Database Connection pop-up window
 
-![](./images/200/Picture200-2.png)
 
 - Click on **Download** to supply a password for the wallet and download your client credentials.
 #### Please use below Keystore password to download the client credentials
@@ -47,7 +45,6 @@ To **log issues**, click [here](https://github.com/oracle/learning-library/issue
 WElcome_123#
 ```
 
-![](./images/200/Picture200-3.png)
 
 - Once you have downloaded your wallet, you will be navigated to ATP overview page
 
@@ -57,7 +54,6 @@ WElcome_123#
 
 - Launch SQL Developer from the desktop and click Add Connection on top left.
 
-![](./images/200/Picture200-7.png)
 
 Enter the following in New database connection
 
@@ -75,15 +71,11 @@ Enter the following in New database connection
 
 **Service**: 'databasename_high' Database name followed by suffix low, medium or high. These suffixes determine degree of parallelism used and are relevant for a DSS workload. For OLTP workloads it's safe to select any of them. Example: **atplab_high**
 
-![](./images/200/Picture200-8.png)
 
 - Test your connection and save. The **Status** bar will show **Success** if it is a successful connection.
 
-![](./images/200/Picture200-9.png)
-
 Click on **Connect**. You now have a secure connection to your cloud database.
 
-![](./images/200/Picture200-10.png)
 
 You now have connected your Autonomous Transaction Processing Cloud instance to Oracle SQL Developer.
 
