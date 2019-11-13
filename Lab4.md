@@ -45,7 +45,7 @@ To **log issues**, click [here](https://github.com/oracle/learning-library/issue
 
 ### **STEP 1: Download the sample data files to your local computer**
 
-- For this lab, you will need a handful of data files.  Click [here](https://github.com/oracle/learning-library/blob/master/workshops/autonomous-transaction-processing/files/datafiles.zip) to download a zipfile of the 2 sample data files for you to upload to the object store. Unzip it to a directory on your local computer.
+- For this lab, you will need a handful of data files.  Click <a href="https://github.com/oracle/learning-library/blob/master/workshops/autonomous-transaction-processing/files/datafiles.zip" target="_blank">here</a>    [here](https://github.com/oracle/learning-library/blob/master/workshops/autonomous-transaction-processing/files/datafiles.zip) to download a zipfile of the 2 sample data files for you to upload to the object store. Unzip it to a directory on your local computer.
 
 You will see:
 - Customer data: **customers.csv**
