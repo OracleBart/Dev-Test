@@ -45,7 +45,7 @@ To **log issues**, click [here](https://github.com/oracle/learning-library/issue
 
 ### **STEP 1: Download the sample data files to your local computer**
 
-- For this lab, you will need a handful of data files.  Click <a href="https://github.com/oracle/learning-library/blob/master/workshops/autonomous-transaction-processing/files/datafiles.zip" target="_blank">here</a>    [here](https://github.com/oracle/learning-library/blob/master/workshops/autonomous-transaction-processing/files/datafiles.zip) to download a zipfile of the 2 sample data files for you to upload to the object store. Unzip it to a directory on your local computer.
+- For this lab, you will need a handful of data files.  Click <a href="https://github.com/oracle/learning-library/blob/master/workshops/autonomous-transaction-processing/files/datafiles.zip" target="_blank">here</a> to download a zipfile of the 2 sample data files for you to upload to the object store. Unzip it to a directory on your local computer.
 
 You will see:
 - Customer data: **customers.csv**
@@ -53,10 +53,10 @@ You will see:
 
 ### **STEP 2: Create target tables for data loading**
 
-- Connected as your user in SQL Developer, copy and paste <a href="./scripts/300/create_tables.txt" target="_blank">this code snippet</a> to SQL Developer worksheet. Take a moment to examine the script. Then click the **Run Script** button to run it.
+- Connected as your user in SQL Developer, copy and paste <a href="https://github.com/oracle/learning-library/blob/master/workshops/autonomous-transaction-processing/scripts/300/create_tables.txt" target="_blank">this code snippet</a> to SQL Developer worksheet. Take a moment to examine the script. Then click the **Run Script** button to run it.
 
 
- -   If you want, you can compare your output to [this code snippet](https://github.com/oracle/learning-library/blob/master/workshops/autonomous-transaction-processing/scripts/300/create_tables.txt) this expected output.</a>  It is expected that you may get ORA-00942 errors during the DROP TABLE commands, but you should not see any other errors.
+ -   If you want, you can compare your output to <a href="https://github.com/oracle/learning-library/blob/master/workshops/autonomous-transaction-processing/scripts/300/create_tables_output.txt" target="_blank"> this expected output.</a>  It is expected that you may get ORA-00942 errors during the DROP TABLE commands, but you should not see any other errors.
 
  Note that you do not need to specify anything other than the list of columns when creating tables in the SQL scripts. You can use primary keys and foreign keys if you want, but they are not required.
 
