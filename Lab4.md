@@ -75,38 +75,29 @@ After entering this information, you can preview the data and select the appropr
 
 When you are satisfied with the file content view, click **NEXT**.
 
-![](./images/400/snap0014654.jpg)
 
 - On Step 2 of the Import Wizard, you control the import method and parameters. Leave the Import Method as **Insert**. Click **NEXT**.
 
-![](./images/400/snap0014655.jpg)
 
 - The Choose Columns screen lets you select the columns you want to import. Leave the defaults and click **NEXT**.
 
 - The column definition screen shows you whether the sample data violates any of the existing column definitions of table CHANNELS (for a load into a new table you would select the column names and data types for the new table). Click **NEXT**.
 
-![](./images/400/snap0014656.jpg)
 
 - The final screen reflects all your choices made in the Wizard. Click **FINISH** to load the data into table CHANNELS.
-
-![](./images/400/snap0014657.jpg)
-
 
 ### **STEP 4: Setup the OCI Object Store**
 
 - Login to your Oracle Cloud Infrastructure console.
 
-![](images/400/snap0014296.jpg)
 
 - Click on **Menu** then Object Storage and selct Object Storage
 
-![](images/400/snap0014297.jpg)
 
 #### In order to create a New Bucket in Object Storage we need to select a Compartment from List Scope.
 
 - Choose the Demo compartment in the **COMPARTMENT** drop-down if it is not already choosen.
 
-![](images/400/snap0014298.jpg)
 
 - Create a Bucket for the Object Storage
 
@@ -114,11 +105,7 @@ In OCI Object Storage, a bucket is the terminology for a container of multiple f
 
 - Click the **Create Bucket** button:
 
-![](images/400/snap0014299.jpg)
-
  - **Name your bucket**
-
-![](images/400/snap0014300.jpg)
 
 Oracle Cloud Infrastructure offers two distinct storage class tiers to address the need for both performant, frequently accessed "hot" storage, as well as less frequently accessed "cold" storage. Storage tiers help you maximize performance where appropriate and minimize costs where possible.
 
@@ -140,25 +127,20 @@ Upload File to your OCI Object Store Bucket
 
 - Click on your **bucket name** to open it:
 
-![](images/400/snap0014301.jpg)
 
 - Click on the **Upload Object** button:
 
-![](images/400/snap0014302.jpg)
-
 - Using the browse button or drag-and-drop select the **customers.csv** file you downloaded earlier and click Upload Object:
 
-![](images/400/snap0014303.jpg)
 
 - The end result should look like this with customers.csv files listed under Objects:
 
-![](images/400/snap0014304.jpg)
 
 - Construct the URL of the File on your OCI Object Storage
 
 Construct the URL that points to the location of the customers.csv file staged in the OCI Object Storage. The URL is structured as follows. The values for you to specify are in bold:
 
- https://swiftobjectstorage.<**region_name**>.oraclecloud.com/v1/<**tenant_name**>/<**bucket_name**>/<**file_name**>
+ https://objectstorage.<**region_name**>.oraclecloud.com/v1/<**tenant_name**>/<**bucket_name**>/<**file_name**>
 
  region_name: Type in the region you have created your Object storage in.
 
@@ -170,11 +152,10 @@ Construct the URL that points to the location of the customers.csv file staged i
 
  In the below example of constructed URL, the region name is us-seattle-1, the tenant name is r1atpdemo6, and the bucket name is ATPLab. So the URL of the customers.csv file is:
 
- https://swiftobjectstorage.us-seattle-1.oraclecloud.com/v1/r1atpdemo6/ATPLab/customers.csv
+ https://objectstorage.uk-london-1.oraclecloud.com/ATPLab/customers.csv
 
  Yours would be different, please change the above mentioned details and save your URL.
 
-![](images/400/ConstructURLs.png)
 
 - **Save** the URL you constructed to a note. We will use the URL in the following steps.
 
@@ -183,29 +164,21 @@ Construct the URL that points to the location of the customers.csv file staged i
 To load data from the Oracle Cloud Infrastructure(OCI) Object Storage you will need an OCI user with the appropriate privileges to read data (or upload) data to the Object Store. The communication between the database and the object store relies on the Swift protocol and the OCI user Auth Token.
 
 - Go back to the **OCI Console** in your browser. In the top menu, click the **Identity**, and then click **Users**.
-    ![](./images/400/Create_Swift_Password_01.png)
 
 -   Click the **user's name** to view the details.  Also, remember the username as you will need that in the next step.
 
 For this lab we will be using admin user.
 
-![](./images/400/Create_Swift_Password_02.png)
-
 -   On the left side of the page, click **Auth Tokens**.
 
-    ![](./images/400/snap0015308.jpg)
 
 -   Click **Generate Token**.
 
-    ![](./images/400/snap0015309.jpg)
 
 -   Enter a friendly **description** for the token and click **Generate Token**.
 
-    ![](./images/400/snap0015310.jpg)
 
 -   The new Auth Token is displayed. Click **Copy** to copy the Auth Token to the clipboard. Save this in a temporary notepad document for the next few minutes (you'll use it in the next step). **You can't retrieve the Auth Token again after closing the dialog box**.
-
-    ![](./images/400/snap0015311.jpg)
 
 #### Create a Database Credentials for your User
 
@@ -215,17 +188,13 @@ In order to access data in the Object Store you have to enable your database use
 
 Specify the credentials for your Oracle Cloud Infrastructure Object Storage service: The username will be the **OCI username** (in our case it is **your email address**) and the OCI object store **Auth Token** you generated in the previous step.  In this example, the crediential object named **OBJ\_STORE\_CRED** is created. You reference this credential name in the following steps.
 
- ![](./images/400/snap0015312.jpg)
 
 <!-- -->
 
 -    Run the script.
 
-![](./images/400/Picture300-12.png)
 
 - Verify the script output.
-
-![](./images/400/Picture400-20.png)
 
 
 - Now you are ready to load data from the Object Store.
@@ -238,7 +207,6 @@ Specify the credentials for your Oracle Cloud Infrastructure Object Storage serv
 
  - At the top of the script, specify the Object Store base URL in the definition of the **base\_URL** variable. You have constructed and saved the URL in the step "Construct the URLs of the Files on Your OCI Object Storage".
 
-![](./images/400/snap0014550.jpg)
 
 - For the **credential_name** parameter in the **copy\_data** procedure, it is the name of the credential you defined in the step "Create a Database Credential for Your User".  You probably don't need to change this.
 
@@ -246,11 +214,9 @@ Specify the credentials for your Oracle Cloud Infrastructure Object Storage serv
 
 - Run the script and verify Script output.
 
-![](./images/400/snapScriptOutput.jpg)
 
 - Verify the data by clicking on CUSTOMERS table and Data tab in SQL Developer.
 
-![](./images/400/snapCustomerData.jpg)
 
 You have successfully loaded the sample data from Object storage to customers table using DBMS_CLOUD.
 
