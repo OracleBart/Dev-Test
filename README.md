@@ -1,4 +1,4 @@
-<table class="tbl-heading"><tr><td class="td-logo">[![](images/obe_tag.png)](README.md)
+<table class="tbl-heading"><tr><td class="td-logo">)](README.md)
 
 Last Updated:<br>November 08, 2018
 </td>
