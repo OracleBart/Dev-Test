@@ -21,7 +21,7 @@ To **log issues**, click [here](https://github.com/oracle/learning-library/issue
 
 ## Required Artifacts
 
-- Please ensure you are connected to your cloud account and have provisioned an ATP instance. Refer<a href="./LabGuide100ProvisionAnATPDatabase.md" target="_blank">LabGuide1.md</a>
+- Please ensure you are connected to your cloud account and have provisioned an ATP instance. Refer<a href="./Lab1.md" target="_blank">LabGuide1.md</a>
 
 
 ## Steps
@@ -30,15 +30,9 @@ To **log issues**, click [here](https://github.com/oracle/learning-library/issue
 
 - Log into your cloud account and navigate to ATP console
 
-![](./images/300/Picture300-1.png)
-
 - On the instance details page, select Scale Up/Down button at the top
 
-![](./images/300/Picture300-2.png)
-
 - Enter the CPU or storage you need to change to.
-
-![](./images/300/Picture300-3.png)
 
 #### NOTE: The service does not limit you to any rigid shapes ( 2,4, 8, 16 etc). You can choose any size from 1 – 128 for both CPU and storage in TB.
 
