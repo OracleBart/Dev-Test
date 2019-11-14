@@ -220,6 +220,12 @@ Specify the credentials for your Oracle Cloud Infrastructure Object Storage serv
 
 You have successfully loaded the sample data from Object storage to customers table using DBMS_CLOUD.
 
+
+### **STEP 6: Create Schema for aOne application**
+
+- Connect as your user in SQL Developer and copy and paste <a href="https://github.com/CloudTestDrive/ATPDocker/blob/master/aone/create_schema.sql" target="_blank"> this code snippet</a> to SQL Developer worksheet. We will be using this code to create the schema for our application which will be used in Lab 6.
+
+
 -   You are now ready to move to the next lab.
 
 <table>
