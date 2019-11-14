@@ -82,7 +82,7 @@ Read on to begin your Getting Started journey with Oracle Autonomous Transaction
 
 - Learn how to build a linux node.js application server and connect it to an Oracle ATP database service
 
-**[Click here to run Lab 5](Lab5.jsAppWithATP.md)**
+**[Click here to run Lab 5](Lab5.md)**
 
 
 
