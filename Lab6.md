@@ -1,5 +1,5 @@
 
-## Lab 8: Building microservices on ATP
+## Lab 6: Building microservices on ATP
 
 
 ## Introduction
