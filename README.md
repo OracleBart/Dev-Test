@@ -7,7 +7,7 @@ Last Updated:<br>November 08, 2018
 </td></tr><table>
 
 
-This workshop walks you through all the steps to get started using the **Oracle Autonomous Transaction Processing**. Provision a database, scale ATP, load data, configure node.js with ATP, configure Java with ATP, working with REST APIs, building microservices on ATP, Configuring OCI CLI, working with Kubernetes and rapid application development with ATP.
+This workshop walks you through all the steps to get started using the **Oracle Autonomous Transaction Processing**. Provision a database, scale ATP, load data, configure node.js with ATP and building microservices on ATP
 
 ## Goals for this workshop
 
