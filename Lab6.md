@@ -71,7 +71,7 @@ Provision ATP instance and download secure connectivity credentials file.
 
 Refer to labs <a href="https://github.com/oracle/learning-library/blob/master/workshops/autonomous-transaction-processing/LabGuide100ProvisionAnATPDatabase.md" target="_blank">LabGuide1.md</a> and <a href="https://github.com/oracle/learning-library/blob/master/workshops/autonomous-transaction-processing/LabGuide200SecureConnectivityAndDataAccess.md" target="_blank">LabGuide2.md</a> to provision and download the secure connectivity credentials file.
 
-- NOTE: If you wish to deploy aOne app, you would need to connect to your database using SQL Developer and run the [create_schema](https://github.com/oracle/learning-library/tree/master/autonomous-database/workshops/atp-s/scripts/800/create_schema.sql) script in the default admin schema or create a suitable user schema for the application.
+- NOTE: If you wish to deploy aOne app, you would need to connect to your database using SQL Developer and run the [create_schema](https://github.com/CloudTestDrive/ATPDocker/blob/master/aone/create_schema.sql) script in the default admin schema or create a suitable user schema for the application.
 
  
 ```
