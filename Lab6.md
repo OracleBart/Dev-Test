@@ -28,7 +28,7 @@ The Autonomous cloud service takes it a step further. It is self managing, self 
 
 - Create a folder and download this repository
 ```
-$ git clone https://github.com/rdibella/ATPDocker/blob/master/Dockerfile
+$ git clone https://github.com/rdibella/ATPDocker.git
 
 ```
 
