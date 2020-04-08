@@ -127,14 +127,14 @@ Assuming you have docker correctly installed you can now build your docker image
 ```
 cd /path_to_app_folder/ATPDocker/
 
-$ docker build -t aone .
+$ sudo docker build -t aone .
 ```
 
 
 The docker creates multiple image files as it builds each layer. Your final image would show at the top of the list and will have the tag you chose.
 
 ```
-$ docker images -a
+$sudo docker images -a
 ```
 
 
@@ -144,9 +144,9 @@ $ docker images -a
 Within the docker container navigate to aone folder and run server.js script
 
 ```
-cd /opt/oracle/lib/ATPDocker/
+cd /Lab6/ATPDocker/
 
-docker run -i -p 3050:3050 -t nodeapp
+sudo docker run -i -p 3050:3050 -t aone
 ```
 
 
