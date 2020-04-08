@@ -28,6 +28,7 @@ The Autonomous cloud service takes it a step further. It is self managing, self 
 
 - Create a folder and download this repository
 ```
+$ sudo mkdir Lab6 && cd Lab6
 $ sudo git clone https://github.com/rdibella/ATPDocker.git
 
 ```
@@ -76,10 +77,9 @@ Refer to labs <a href="https://github.com/oracle/learning-library/blob/master/wo
 
  
 ```
-cd /home/opc/ATPDocker/CTD_OOW
-
-rm -f *
-
+cd /home/opc/Lab6/ATPDocker/
+mkdir CTD_OOW
+cd CTD_OOW
 unzip YOUR_WALLET.zip -d /path_to_app_folder/ATPDocker/CTD_OOW/
 
 nano sqlnet.ora
@@ -87,10 +87,7 @@ nano sqlnet.ora
 WALLET_LOCATION = (SOURCE = (METHOD = file) (METHOD_DATA = (DIRECTORY=$TNS_ADMIN)))
 SSL_SERVER_DN_MATCH=yes
 
-sudo chown 777 /home/opc/ATPDocker/CTD_OOW/
-
-export TNS_ADMIN=/home/opc/ATPDocker/CTD_OOW/
-
+export TNS_ADMIN=/home/opc/Lab6/ATPDocker/CTD_OOW/
 ```
 
 ### **STEP 2: Open OCI PORT and Add Firewall exception**
