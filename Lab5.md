@@ -59,6 +59,16 @@ A confirmation page displays the details of the cloud network that you just crea
 
 ![](https://raw.githubusercontent.com/oracle/learning-library/master/workshops/autonomous-transaction-processing/images/500/Picture500-17.png)
 
+-Navigate to the VCN you just created, click PublicSecurity List and add the following
+
+'''
+Source CIDR 0.0.0.0/0
+Port: TCP
+Source: leave blank
+Destination: 3050 
+'''
+We are going to use that later.
+
 
 ### **STEP 2: Provision a linux compute VM to serve as the app server**
 
