@@ -61,12 +61,12 @@ A confirmation page displays the details of the cloud network that you just crea
 
 -Navigate to the VCN you just created, click PublicSecurity List and add the following
 
-'''
+```
 Source CIDR 0.0.0.0/0
 Port: TCP
 Source: leave blank
 Destination: 3050 
-'''
+```
 We are going to use that later.
 
 
