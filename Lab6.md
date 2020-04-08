@@ -80,7 +80,9 @@ Refer to labs <a href="https://github.com/oracle/learning-library/blob/master/wo
 cd /home/opc/Lab6/ATPDocker/
 mkdir CTD_OOW
 cd CTD_OOW
-unzip YOUR_WALLET.zip -d /path_to_app_folder/ATPDocker/CTD_OOW/
+unzip YOUR_WALLET.zip -d /home/opc/Lab6/ATPDocker/CTD_OOW/
+
+cd /Lab6/ATPDocker/CTD_OOW/
 
 nano sqlnet.ora
 
