@@ -60,9 +60,10 @@ gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-oracle
 gpgcheck=1
 enabled=1
 
-# sudo systemctl start docker
-# sudo systemctl enable docker
-# sudo systemctl status docker
+$ sudo yum install docker-engine
+$ sudo systemctl start docker
+$ sudo systemctl enable docker
+$ sudo systemctl status docker
 ```
 
 ### **STEP 1: Provision an ATP instance and copy secure credential file to application folder**
