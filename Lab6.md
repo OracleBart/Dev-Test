@@ -97,9 +97,9 @@ export TNS_ADMIN=/home/opc/Lab6/ATPDocker/CTD_OOW/
 In order to expose our container to the outside we need to open the port we will use on both OCI's VCN and the firewall. We're gonna use port 3050 so we will open that one.
 
 ```
-firewall-cmd --zone=public --add-port=3050/tcp --permanent
+$sudo firewall-cmd --zone=public --add-port=3050/tcp --permanent
 
-firewall-cmd --reload
+$sudo firewall-cmd --reload
 ```
 
 ### **STEP 3: Build your docker image**
