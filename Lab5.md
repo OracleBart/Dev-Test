@@ -222,15 +222,17 @@ sudo yum install git
 
 Copy instant client from you local machine to linux host machine
 ```
-wget https://download.oracle.com/otn_software/linux/instantclient/193000/instantclient-basic-linux.x64-19.3.0.0.0dbru.zip
-```
-
-- Unzip the file and move the files to /opt/oracle/instantclient_12_2
-
-```
 mkdir instantclient_19_3_linux/
 
 cd instantclient_19_3_linux/
+
+wget https://download.oracle.com/otn_software/linux/instantclient/193000/instantclient-basic-linux.x64-19.3.0.0.0dbru.zip
+```
+
+- Unzip the file and move the files to /opt/oracle/instantclient_19_3
+
+```
+
 
 unzip instantclient-basic-linux.x64-19.3.0.0.0dbru.zip
 
