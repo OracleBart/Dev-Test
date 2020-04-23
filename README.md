@@ -17,6 +17,7 @@ This workshop walks you through all the steps to get started using the **Oracle 
 - Loading data into ATP Database
 - Configure node.js app with ATP
 - Building Microservices on ATP
+- Configure OCI-CLI
 
 # How to Get Your Free Cloud Trial Account
 Please click on the following link to create your <a class=“trial-link” href="http://bit.ly/2NEX3Vv" target="_trial">Free Account</a>, and complete all the required steps to get your free Oracle Cloud Trial Account. When you complete the registration process you'll receive a $300 credit that will enable you to complete the lab for free.  Additionally, you'll have 1000s of hours left over to continue to explore the Oracle Cloud.
@@ -94,6 +95,16 @@ Read on to begin your Getting Started journey with Oracle Autonomous Transaction
 - Deploy it on an ATP service
 
 **[Click here to run Lab 6](Lab6.md)**
+
+
+## Lab 9: Configure OCI-CLI
+
+**Key Objectives**:
+
+- Configure Oracle Cloud Infrastructure Command Line Interface
+- Run examples using OCI-CLI for Autonomous Transaction Processing database
+
+**[Click here to run Lab 9](Lab7.md)**
 
 ## Learn More About Autonomous Transaction Processing...
 
