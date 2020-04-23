@@ -104,7 +104,7 @@ Read on to begin your Getting Started journey with Oracle Autonomous Transaction
 - Configure Oracle Cloud Infrastructure Command Line Interface
 - Run examples using OCI-CLI for Autonomous Transaction Processing database
 
-**[Click here to run Lab 9](Lab7.md)**
+**[Click here to run Lab 7](Lab7.md)**
 
 ## Learn More About Autonomous Transaction Processing...
 
