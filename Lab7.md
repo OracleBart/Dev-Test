@@ -86,7 +86,7 @@ oci setup config
 - The command prompts you for the information required for the config file and the API public/private keys. The setup dialog generates an API key pair and creates the config file.
 
 
-![](./images/900/OCI-Setup-Config.png)
+![](https://raw.githubusercontent.com/oracle/learning-library/master/workshops/autonomous-transaction-processing/images/900/OCI-Setup-Config.png)
 
 - Once you run the above command, you will need to enter the following:
 
@@ -95,18 +95,18 @@ oci setup config
 
     Login to OCI console and click on Menu, Identity and Users. Click on the User and navigate to User Details page. Copy the User OCID.
 
-    ![](./images/900/UserOCID1.png)
+    ![](https://raw.githubusercontent.com/oracle/learning-library/master/workshops/autonomous-transaction-processing/images/900/UserOCID1.png)
 
-    ![](./images/900/UserOCID2.png)
+    ![](https://raw.githubusercontent.com/oracle/learning-library/master/workshops/autonomous-transaction-processing/images/900/UserOCID2.png)
 
 
     - **Enter a tenancy OCID**: This is located in the bottom left of your OCI console
     
     Login to OCI console click on User icon on top right corner on the page and click on Tenancy and copy Tenancy OCID
 
-    ![](./images/900/TenancyOCID1.png)
+    ![](https://raw.githubusercontent.com/oracle/learning-library/master/workshops/autonomous-transaction-processing/images/900/TenancyOCID1.png)
 
-    ![](./images/900/TenancyOCID2.png)
+    ![](https://raw.githubusercontent.com/oracle/learning-library/master/workshops/autonomous-transaction-processing/images/900/TenancyOCID2.png)
 
     - **Enter a region (e.g. eu-frankfurt-1, uk-london-1, us-ashburn-1, us-phoenix-1)**: Select a region
 
@@ -127,17 +127,17 @@ Add public key to OCI User setting
 cat oci_api_key_public.pem
 ```
 
-![](./images/900/OCIPublicKeycleare.png)
+![](https://raw.githubusercontent.com/oracle/learning-library/master/workshops/autonomous-transaction-processing/images/900/OCIPublicKeycleare.png)
 
 - Login to your OCI console and click on Menu and select Identity and Users. Select a User and navigate to User Detial page.
 
 - Click on Add Public Key under API Keys section.
 
-![](./images/900/APIKeys.png)
+![](https://raw.githubusercontent.com/oracle/learning-library/master/workshops/autonomous-transaction-processing/images/900/APIKeys.png)
 
 - Paste Public key which you copied from CLI in Add Public Key
 
-![](./images/900/AddPublicKey.png)
+![](https://raw.githubusercontent.com/oracle/learning-library/master/workshops/autonomous-transaction-processing/images/900/AddPublicKey.png)
 
 
 Once you add the key run the below command to autocomplete OCI setup.
@@ -166,7 +166,7 @@ oci db autonomous-database create --admin-password "WElcome_123#" -c ocid1.compa
 
 You are expected to see the following output in the command line interface
 
-![](./images/900/CreateDBOutput.png)
+![](https://raw.githubusercontent.com/oracle/learning-library/master/workshops/autonomous-transaction-processing/images/900/CreateDBOutput.png)
 
 #### Get Databse
 
@@ -184,7 +184,7 @@ oci db autonomous-database get --autonomous-database-id ocid1.autonomousdatabase
 
 You are expected to see the following output in the command line interface
 
-![](./images/900/GetDBOutput.png)
+![](https://raw.githubusercontent.com/oracle/learning-library/master/workshops/autonomous-transaction-processing/images/900/GetDBOutput.png)
 
 #### Listing Database
 
@@ -202,7 +202,7 @@ oci db autonomous-database list -c ocid1.compartment.oc1..aaaaaaaahnmqede4hg2sdo
 
 You are expected to see the following output in the command line interface
 
-![](./images/900/ListDBOutput.png)
+![](https://raw.githubusercontent.com/oracle/learning-library/master/workshops/autonomous-transaction-processing/images/900/ListDBOutput.png)
 
 #### Deleting Database
 
@@ -222,11 +222,11 @@ You are expected to see the following output in the command line interface.
 
 You will be asked **Are you sure you want to delete this resource? [y/N]** type Y to comfirm.
 
-![](./images/900/DeleteDBOutput.png)
+![](https://raw.githubusercontent.com/oracle/learning-library/master/workshops/autonomous-transaction-processing/images/900/DeleteDBOutput.png)
 
 Login to OCI console and naviagte to Autonomous Transaction Processing Database from Menu and confirm that the database is **Terminating**.
 
-![](./images/900/TerminateDBOutput.png)
+![](https://raw.githubusercontent.com/oracle/learning-library/master/workshops/autonomous-transaction-processing/images/900/TerminateDBOutput.png)
 
 
 #### Bonus Step: In similar way you can try the follwing examples
