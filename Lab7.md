@@ -67,7 +67,8 @@ To install the CLI on any compute with Bash
 bash -c "$(curl -L https://raw.githubusercontent.com/oracle/oci-cli/master/scripts/install/install.sh)"
 ```
 
-![](./images/900/OCI-CLI-Install.png)
+![CLI](https://raw.githubusercontent.com/oracle/learning-library/master/workshops/autonomous-transaction-processing/images/900/OCI-CLI-Install.png)
+
 
 
 ### **STEP 2: Configure OCI CLI**
