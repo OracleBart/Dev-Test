@@ -18,8 +18,6 @@ This CLI and sample is dual-licensed under the Universal Permissive License 1.0 
 The CLI is built on Python (version 2.7.5 or later), running on Mac, Windows, or Linux. The Python code makes calls to Oracle Cloud Infrastructure APIs to provide the functionality implemented for the various services. These are REST APIs that use HTTPS requests and responses. For more information, see [About the API](https://docs.cloud.oracle.com/iaas/Content/API/Concepts/usingapi.htm)
 
 
-To **log issues**, click [here](https://github.com/oracle/learning-library/issues/new) to go to the github oracle repository issue submission form.
-
 ## Objectives
 
 - Configure Oracle Cloud Infrastructure Command Line Interface
