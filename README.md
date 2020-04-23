@@ -97,7 +97,7 @@ Read on to begin your Getting Started journey with Oracle Autonomous Transaction
 **[Click here to run Lab 6](Lab6.md)**
 
 
-## Lab 9: Configure OCI-CLI
+## Lab 7: Configure OCI-CLI
 
 **Key Objectives**:
 
